@@ -1,1 +1,80 @@
 /*Custom styles here*/
+.pink {
+  background-color: pink;
+  border: 1px solid purple;
+  height: 250px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-btn {
+  height: 40px;
+}
+
+.hide-card {
+  display: none;
+}
+
+.col-form-label {
+  padding: 0;
+}
+
+.form-input {
+  padding: 0;
+}
+
+.form-btn {
+  margin-top: 20px;
+}
+
+.edit-form {
+  width: 230px;
+}
+
+.edit-card {
+  margin-left: 1em;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.image-holder {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.thumbnail {
+  margin-bottom: 0;
+}
+
+.modal {
+  top: 100px;
+}
+
+.modal-dialog {
+  width: 400px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin: 0;
+}
