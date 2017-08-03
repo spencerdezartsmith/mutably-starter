@@ -76,7 +76,6 @@ const addEditBookCard = (book) => {
               <div class='input-section'>
                 <input type='hidden' name='book-image' role='uploadcare-uploader' id='image-'></input>
               </div>
-              <button type='submit' class='btn btn-primary form-btn upload-btn'>Upload Image</button>
               <button type='submit' class='btn btn-primary form-btn submit-edit-btn'>Submit</button>
             </div>
           </form>
