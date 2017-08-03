@@ -1,7 +1,6 @@
 const baseURL = 'http://mutably.herokuapp.com'
 
 // Functions for updating the view
-
 const addListItem = (book) => {
   $('.list-group').append(`
     <li class='list-group-item' id=${book._id}>
@@ -85,6 +84,7 @@ const addEditBookCard = (book) => {
   `)
 }
 
+// Update book title and ID with the new values
 const updateSingleListElement = (bookId, updatedBook) => {
   $(document).find(`#${bookId}`).html(`
     <p class='list-title'>${updatedBook.title}</p>
@@ -96,7 +96,7 @@ const updateSingleListElement = (bookId, updatedBook) => {
   `).attr(updatedBook._id)
 }
 
-// TODO edge cases
+// Remove element upon delete
 const removeBookElement = (bookId) => {
   $(`#${bookId}`).hide('slow', function () {
     $(this).remove()
